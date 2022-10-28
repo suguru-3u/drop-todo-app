@@ -1,0 +1,17 @@
+{
+  "name": "drop-todo-app",
+  "version": "1.0.0",
+  "description": "package.json の生成 npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "cop": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
