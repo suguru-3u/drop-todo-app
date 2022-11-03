@@ -6,7 +6,7 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "dist",
+    publicPath: "/dist",
   },
   devServer: {
     static: [
@@ -20,7 +20,7 @@ module.exports = {
       },
     ],
   },
-  devtool: false,
+  devtool: "eval",
   module: {
     rules: [
       {
